@@ -1,0 +1,9 @@
+timestamp,question,answer_type,num_sources,top_score,latency_ms
+2026-01-15T15:52:03.463614,How does AI improve healthcare,answered,4,0.18687739968299866,8523
+2026-01-15T15:52:34.219576,who won world cup,refused,0,0.566606879234314,3980
+2026-01-15T15:53:39.918658,tell me about diabetes,answered,2,0.33062392473220825,5623
+2026-01-15T16:08:12.554230,who won world cup,refused,0,0.566606879234314,8175
+2026-01-15T16:13:56.839252,healthcare for homeless people,answered,5,0.2093178927898407,8092
+2026-01-15T16:14:18.828729,ai in healthcare,answered,4,0.2876356840133667,4402
+2026-01-15T16:26:45.793955,who won world cup,refused,0,0.566606879234314,7845
+2026-01-15T16:26:59.509361,ai in healthcare,answered,4,0.2876356840133667,5226
