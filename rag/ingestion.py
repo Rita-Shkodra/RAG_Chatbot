@@ -51,7 +51,7 @@ def build_vectorstore(chunks):
         embedding = OpenAIEmbeddings(),
         persist_directory=persist_dir,
     )
-    vectordb.persist()
+    
 
 
 if __name__ == "__main__":
