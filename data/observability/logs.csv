@@ -33,3 +33,4 @@ timestamp,question,answer_type,num_sources,top_score,latency_ms
 2026-01-18T15:57:33.975140,who won world cup,refused,0,0.566606879234314,6762
 2026-01-18T15:58:35.621618,ai in healthcare,answered,4,0.2876356840133667,6220
 2026-01-18T17:23:36.498880+01:00,cybersecurity in healthcare,answered,4,0.1930234730243683,11558
+2026-01-18T17:31:30.738970+01:00,who won the oscar,refused,0,0.5780525803565979,5969
