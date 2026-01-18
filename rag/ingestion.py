@@ -59,14 +59,14 @@ if __name__ == "__main__":
     documents = load_docs()
     print(f"Loaded {len(documents)} pages")
 
-    print("Cleaning documents...")
+    print("Cleaning documents")
     documents = clean_docs(documents)
 
-    print("Chunking documents...")
+    print("Chunking documents")
     chunks = chunk_docs(documents)
     print(f"Total chunks: {len(chunks)}")
 
-    print("Creating embeddings and building vector store...")
+    print("Creating embeddings and building vector store")
     build_vectorstore(chunks)
 
     print("Ingestion completed successfully.")
