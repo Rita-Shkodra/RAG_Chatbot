@@ -1,6 +1,7 @@
 import csv
 import time
 from datetime import datetime
+from zoneinfo import ZoneInfo
 from typing import List, Tuple
 import os
 
@@ -116,7 +117,7 @@ def log_interaction(question, answer, sources, results, latency_ms):
         top_score = None
 
     row = [
-        datetime.utcnow().isoformat(),
+       datetime.now(ZoneInfo("Europe/Skopje")).isoformat(),
         question,
         answer_type,
         num_sources,
